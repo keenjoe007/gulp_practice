@@ -1,0 +1,25 @@
+{
+  "name": "gulp_practice",
+  "version": "0.0.0",
+  "description": "gulp_practice =============",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keenjoe007/gulp_practice"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/keenjoe007/gulp_practice/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-watch": "~1.0.7",
+    "gulp-styledocco": "0.0.1",
+    "gulp-minify-css": "~0.3.10",
+    "gulp-sass": "~1.0.0"
+  }
+}
