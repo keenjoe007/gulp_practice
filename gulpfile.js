@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var styledocco = require('gulp-styledocco');
-var watch = require('gulp-watch');
 var minifyCSS = require('gulp-minify-css');
 
 gulp.task('sass', function(){
@@ -27,7 +26,7 @@ gulp.task('minifyCSS', ['sass'], function(){
 });
 
 gulp.task('watch', function(){
-  gulp.watch('./assets/styles/sass/', ['sass']);
+  gulp.watch('./assets/styles/sass/*.sass', ['default']);
 });
 
 gulp.task('default', ['minifyCSS', 'styledocco']);
